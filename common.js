@@ -1,3 +1,4 @@
+// this is a super awesome comment
 function writeUserData(userId, name, email, smileList) {
     firebase.database().ref('users/' + userId).set({
       username: name,
